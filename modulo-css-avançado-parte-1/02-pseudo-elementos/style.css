@@ -1,0 +1,65 @@
+/* seletor::pseudo-elemtno{
+    propriedade: valor;
+} */
+
+.first-letter::first-letter{
+    color:coral;
+}
+
+/* ::first-letter tem o poder de estilizar 
+a primeira letra ele meio que consegue subistituir
+uma leve estilizaçao que eu faria com o span eu faço 
+com ele isso se eu quiser estilizar so a primeira letra 
+
+ele funciona com qualquer seletor
+*/
+
+.first-line::first-line{
+    color: blue;
+}
+
+/* ::first-line ele estiliza a primeira linha do seu site
+ independente do tamanho que a tela seja ele vai estilizar
+  apenas a primeira linha */
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+/* ::marker ele estiliza os marcadores de uma lista de qualquer 
+forma e tamanho */
+
+.before::before{
+    content: "";
+   background: url(code-img.jpg) center center no-repeat;
+   display: inline-block;
+   width: 2048px;
+   height: 1536px;
+}
+
+/* ::before ele coloca uma imagem antes do titulo 
+sem precisa colocar no codigo HTML e gerar mais ainda 
+peso de repetiçao de arquivo de imagem apenas usando 
+essa pseudo classe 
+
+se for aplicar uma imagem é aplicando esse parametro 
+para ela surgir sendo width e height os valores 
+reais da imagem
+
+*/
+
+.after::after{
+    content: "";
+    background: url(code-img.jpg) center center no-repeat;
+    display: inline-block;
+    width: 2048px;
+    height: 1536px;
+}
+
+
+/* ::after ele aplica o mesmo sentido de aplicaçao de
+ conteudo do before so que ele faz no sentido contrario 
+ do before */
+
+

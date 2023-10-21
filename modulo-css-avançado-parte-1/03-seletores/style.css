@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    font-size: 20px;
+
+}
+
+h1{
+    color: green;
+}
+
+/* class */
+.paragrafo{
+    font-size:30px ;
+    color: brown;
+}
+
+/* #id */
+#menu{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+
+
+
+.titulo{
+    font-size: 30px;
+}
+
+.titulo.laranja{
+    color: orange;
+}
+.titulo.vermelho{
+    color: red;
+}
+
+p, span{
+    color: rgb(91, 59, 121);
+    /* font-size: 10px; */
+}
+
+.sobre .texto{
+    color: rgb(255, 152, 18);
+}
+
+divi + p{
+    color: blue ;
+}
+
+/* pai > filho{
+    propriedade
+} */

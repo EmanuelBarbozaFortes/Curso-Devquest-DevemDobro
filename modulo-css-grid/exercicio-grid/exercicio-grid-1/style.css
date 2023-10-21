@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 135px;px;
+}
+header{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+header input{
+    color: darkgrey;
+    border-radius: 25px;
+    width: 300px;
+    padding: 7px;
+}
